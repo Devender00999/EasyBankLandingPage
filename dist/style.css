@@ -577,14 +577,14 @@ h2 {
 
 @media (min-width: 40em) {
   .article__grid {
-    -ms-grid-columns: (1fr) 2;
+    -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (min-width: 64em) {
   .article__grid {
-    -ms-grid-columns: (1fr)4;
+    -ms-grid-columns: (1fr)[4];
         grid-template-columns: repeat(4, 1fr);
   }
 }
