@@ -103,6 +103,7 @@
         position: absolute;
         width: calc(100% - 3rem);
         left: 50%;
+        z-index: 2;
         background-color: $white;
         padding: 1.625rem;
         margin-top: 1.5rem;
