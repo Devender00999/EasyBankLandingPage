@@ -383,6 +383,15 @@ h2 {
   color: #2d314d;
 }
 
+@media (max-width: 63.9375em) {
+  .header__menu a:hover {
+    background: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+    background: linear-gradient(to right, #31d35c, #2bb7da);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
 .hero {
   background-color: #fafafa;
 }

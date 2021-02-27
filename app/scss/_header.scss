@@ -84,7 +84,10 @@
                 transition: opacity 200ms ease-in-out;
             }
 
+            
+
             &:hover{
+                
                 color:$darkBlue;
                 &::before{
                     opacity: 1;
@@ -115,6 +118,13 @@
             padding: 0.625rem;
             text-align: center;
             color: $darkBlue;
+            &:hover{
+                @include breakpoint-down(medium){
+                    background: linear-gradient(to right,$limeGreen,$brightCyan); 
+                    -webkit-text-fill-color: transparent; 
+                    -webkit-background-clip: text;   
+                }
+            }
         }   
     }
 }
